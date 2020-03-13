@@ -1,6 +1,8 @@
-let result = 0
+ let result = 0
+let result2 = 0
 
 function add() {
+   
     document.getElementById('result').innerText =  result
     result++
 }
@@ -8,15 +10,16 @@ function add() {
 
 
 function remove() {
-    document.getElementById('result2').innerText =  result
-    result--
+
+    document.getElementById('result2').innerText = result2
+    result2--
 }
 
 
 
 var i = 0;
-var images = ['./images/ar0.jpeg','./images/ar5.jpg', './images/ar2.jpeg', './images/ar3.jpeg', './images/ar4.jpeg'];
-var time = 3000;
+var images = ['./images/ar0.jpeg','./images/ar5.jpg', './images/ar2.jpg', './images/ar3.jpeg', './images/ar4.jpeg'];
+var time = 5000;
 
 
 function changeImg(){

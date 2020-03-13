@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+
+html{
+    height: 100vh;
+    background-color: rgb(194, 194, 223);
+    
+}
+
+.jaime{
+   
+   
+}
+
+h1{
+    font-size: 50px;
+   }
+
+#btnplus{
+        width: 90px;
+       height: 90px;
+     
+}
+
+#btnmoins{
+    width: 90px;  
+    height: 90px;
+      
+}
+
+i{
+    font-size: 70px;
+   
+}
+
+img{
+    width: 700px;
+    height: 400px;
+    position:absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50px, -50px);
+}
+
